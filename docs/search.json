@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title of Your Workshop Session",
+    "title": "RNA-Seq Data Analysis with R",
     "section": "",
-    "text": "Instructor: Md. Jubayer Hossain\n\n\n🗓 July 16 - July 31, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom/Google Meet\n\n\n💥 Register with Google Forms\n\n\n💥 Registration Fee: 1020 BDT (for students),1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.\n\n\n\n\nWelcome!\n\nThe goal of the workshop is to … (insert your message)\nFor example, introduce kep concepts in machine learning, such as regularisation.\nWorkshop material can be found in the workshop github repository.\n\n\nLearning Objectives\nAt the end of the tutorial, participants will be able to\n\nunderstand key concepts for … (insert your message)\nFor example, training machine learning models such as regularisation.\nanother objective\n\n\n\nPre-requisites\n\nBasic familiarity with R\nSome other knowledge\n\n\n\n\nSchedule\n\n\n\n\n\n\nTabular schedule\n\n\n\nIt can be useful to include a tabular schedule with links.\n\n\n\n\n\nTime\nTopic\nPresenter\n\n\n\n\n9:00 - 10:30\nSession 1: Preparation\nInstructor A\n\n\n10:45 - 12:00\nSession 2: Exploratory Analysis\nInstructor B, C"
+    "text": "👨 Instructor: Md. Jubayer Hossain\n\n\n🗓 July 16 - July 31, 2023 | 9:00 pm - 10:30pm (Bangladesh Time)\n\n\n🏨 Medium - Zoom/Google Meet\n\n\n💥 Register with Google Forms\n\n\n৳ Registration Fee: 1020 BDT (for students),1530BDT (for professionals)\n\n\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration."
   },
   {
     "objectID": "part_2_eda.html",
@@ -137,7 +137,7 @@
     "href": "resources.html#prework",
     "title": "Resources",
     "section": "Prework",
-    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
+    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
   },
   {
     "objectID": "resources.html#install-bioconductor-packages",
@@ -151,21 +151,21 @@
     "href": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
     "title": "Resources",
     "section": "R Packages RNASeq and Single-cell RNA-seq Analysis",
-    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
+    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\n\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\n\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\n\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\n\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\n\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\n\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\n\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\n\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
   },
   {
     "objectID": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
     "href": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
     "title": "Resources",
     "section": "Blogs for R Programming, Statistics, and Data Analyis",
-    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\nSimply Statistics - https://simplystatistics.org/\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\nR for Biologists - https://www.rforbiologists.org/\nComputational Genomics with R - https://compgenomr.github.io/book/\nStat and R - https://statsandr.com/\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
+    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\n\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\n\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\n\nSimply Statistics - https://simplystatistics.org/\n\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\n\nR for Biologists - https://www.rforbiologists.org/\n\nComputational Genomics with R - https://compgenomr.github.io/book/\n\nStat and R - https://statsandr.com/\n\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\n\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
   },
   {
     "objectID": "resources.html#videos",
     "href": "resources.html#videos",
     "title": "Resources",
     "section": "Videos",
-    "text": "Videos\n\nWelcome to the “R for Research” series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you’re a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: \nIn Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out:"
+    "text": "Videos\n\n\nWelcome to the “R for Research” series! In this video, we will dive into the fundamentals of R, a powerful programming language and environment widely used in research and data analysis.R provides comprehensive tools and packages for statistical analysis, data visualization, and data manipulation. Whether you’re a biologist, social scientist, or any researcher looking to harness the power of data, this series will equip you with the necessary skills to leverage R for your research projects.! Check it out: \n\n\n\nIn Part 2, we will continue our exploration of the fundamentals of R, building upon the knowledge gained in Part 1. This video will cover additional essential topics to further enhance your skills in using R for research and data analysis. Check it out:"
   },
   {
     "objectID": "setup.html",
@@ -227,21 +227,21 @@
     "objectID": "setup-guide.html#installing-r",
     "href": "setup-guide.html#installing-r",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "Installing R",
-    "text": "Installing R\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
+    "section": "Installing R\n",
+    "text": "Installing R\n\nWe recommend installing the most recent version or R – 4.2.3 as of March 18, 2023 If you have had installed R already some time ago, we recommend updating/reinstalling it to the most recent version. Use a link below to launch download of R installers (if the download does not start, a fix may be to copy-paste the below link to your browser):\n\nFor Mac users: https://cran.r-project.org/bin/macosx/\nFor Windows users: https://cran.r-project.org/bin/windows/base/R-4.2.3-win.exe\nFor Ubuntu users: https://cran.r-project.org/bin/linux/ubuntu/\n\nFor other operating systems, or if you prefer to access the download link from the official website, visit http://cran.us.r-project.org and select Download R for Linux, Download R for macOS or Download R for Windows based on which device you have.\nOnce the proper installation package has been selected, run the package and follow the on-screen directions. This installation includes the R language and a graphical user interface (GUI). Rather using the GUI, we recommend installing RStudio - an integrated development environment (IDE) that lets you interact with R with some added benefits."
   },
   {
     "objectID": "setup-guide.html#installing-rstudio",
     "href": "setup-guide.html#installing-rstudio",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "Installing RStudio",
-    "text": "Installing RStudio\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\nCMD + Return on Mac\nCTRL + Enter on Windows\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
+    "section": "Installing RStudio\n",
+    "text": "Installing RStudio\n\nTo install RStudio, visit https://posit.co/download/rstudio-desktop/. Once on the website, select DOWNLOAD tab (upper left corner), scroll down and click Download under the RStudio Desktop – Free version (1st out of 4 columns), and select the proper installation file for your platform (Windows or Mac).\nWhen you open up RStudio, it should look like this:\n\nClick the top left button to create a new script:\n\nRStudio, should now look like this:\n\nThere are four main windows.\n\nThe console is the lower-left window where you can run lines of code and see the output.\n\nThe script window is the upper-left window where you can edit and write scripts or markdown documents. From the script window, you can run the current line of code in your script (or multiple lines if you highlight multiple rows) by pressing\n\n\nCMD + Return on Mac\n\nCTRL + Enter on Windows\n\n\nThe workspace is the upper-right window where you can manage your data and variables and see previous commands entered (under the history tab).\nThe plots window allows you to see the output of plots. On the other tabs, you can also look at directories, install packages, and look at help files for various R commands.\n\nYou can customize the look of your RStudio IDE in Tools &gt; Global Options...."
   },
   {
     "objectID": "setup-guide.html#r-packages",
     "href": "setup-guide.html#r-packages",
     "title": "Setup Guide: Install R and RStudio",
-    "section": "R Packages",
+    "section": "\nR Packages",
     "text": "R Packages\nPackages are the fundamental units of reproducible R code. They are collections of R code that typically share some common purpose. Examples:\n\ndplyr - package of functions for fast data set manipulation (subsetting, summarizing, rearranging, and joining together data sets);\nggplot2 - “R’s famous package for making beautiful graphics”; allows to build multiple-layers, highly customizable plots."
   },
   {
@@ -249,14 +249,14 @@
     "href": "setup-guide.html#installing-and-loading-r-packages",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Installing and Loading R Packages",
-    "text": "Installing and Loading R Packages\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
+    "text": "Installing and Loading R Packages\n\n\nTo install an R package, type in the RStudio console\ninstall.packages(\"replace_with_package_name\")\nand press enter to execute the command.\n\n\nOnce a package is installed, to use its contents in current R session, we run in the RStudio console the command\nlibrary(replace_with_package_name)\n\n\n(Note the difference in presence of the quotation mark in the two above commands.)"
   },
   {
     "objectID": "setup-guide.html#working-with-r-rstudio",
     "href": "setup-guide.html#working-with-r-rstudio",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Working with R – RStudio",
-    "text": "Working with R – RStudio\nRStudio is an Integrated Development Environment (IDE) for R\n\nIt helps the user effectively use R\nMakes things easier\nIs NOT a dropdown statistical tool (such as Stata)\n\nSee Rcmdr or Radiant\n\nAll R Studio snapshots are taken from http://ayeimanol-r.net/2013/04/21/289/\n\n\n\n\n\n\n\n\n\n\n[source]"
+    "text": "Working with R – RStudio\nRStudio is an Integrated Development Environment (IDE) for R\n\nIt helps the user effectively use R\nMakes things easier\nIs NOT a dropdown statistical tool (such as Stata)\n\nSee Rcmdr or Radiant\n\n\n\nAll R Studio snapshots are taken from http://ayeimanol-r.net/2013/04/21/289/\n\n\n\n\n\n\n\n\n\n\n[source]"
   },
   {
     "objectID": "setup-guide.html#rstudio",
@@ -284,7 +284,7 @@
     "href": "setup-guide.html#working-with-r-in-r-studio---2-major-panes",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Working with R in R Studio - 2 major panes:",
-    "text": "Working with R in R Studio - 2 major panes:\n\nThe Source/Editor: “Analysis” Script + Interactive Exploration\n\nStatic copy of what you did (reproducibility)\nTop by default\n\nThe R Console: “interprets” whatever you type\n\nCalculator\nTry things out interactively, then add to your editor\nBottom by default"
+    "text": "Working with R in R Studio - 2 major panes:\n\nThe Source/Editor: “Analysis” Script + Interactive Exploration\n\nStatic copy of what you did (reproducibility)\nTop by default\n\n\nThe R Console: “interprets” whatever you type\n\nCalculator\nTry things out interactively, then add to your editor\nBottom by default"
   },
   {
     "objectID": "setup-guide.html#source-editor",
@@ -298,7 +298,7 @@
     "href": "setup-guide.html#r-console",
     "title": "Setup Guide: Install R and RStudio",
     "section": "R Console",
-    "text": "R Console\n\n\n\n\n\n\n\n\n\n\n\nWhere code is executed (where things happen)\nYou can type here for things interactively\nCode is not saved on your disk"
+    "text": "R Console\n\n\n\n\n\n\n\n\n\n\nWhere code is executed (where things happen)\nYou can type here for things interactively\nCode is not saved on your disk"
   },
   {
     "objectID": "setup-guide.html#rstudio-2",
@@ -340,7 +340,7 @@
     "href": "setup-guide.html#other-panes",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Other Panes",
-    "text": "Other Panes\n\nFiles - shows the files on your computer of the directory you are working in\nViewer - can view data or R objects\nHelp - shows help of R commands\nPlots - pictures and figures\nPackages - list of R packages that are loaded in memory"
+    "text": "Other Panes\n\n\nFiles - shows the files on your computer of the directory you are working in\n\nViewer - can view data or R objects\n\nHelp - shows help of R commands\n\nPlots - pictures and figures\n\nPackages - list of R packages that are loaded in memory"
   },
   {
     "objectID": "setup-guide.html#r-markdown-file",
@@ -368,7 +368,7 @@
     "href": "setup-guide.html#create-chunks",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Create Chunks",
-    "text": "Create Chunks\nTo create a new R code chunk:\nCopy paste an existing chunk in the R Markdown file and replace the code OR\n\nUse the insert code chunk button at the top of RStudio.\n\n\n\n\n\n\n\n\n\n\n\nSelect R as the language:"
+    "text": "Create Chunks\nTo create a new R code chunk:\nCopy paste an existing chunk in the R Markdown file and replace the code OR\n\nUse the insert code chunk button at the top of RStudio.\n\n\n\n\n\n\n\n\n\n\nSelect R as the language:"
   },
   {
     "objectID": "setup-guide.html#run-previous-chunks-button",
@@ -403,7 +403,7 @@
     "href": "setup-guide.html#useful-r-studio-shortcuts",
     "title": "Setup Guide: Install R and RStudio",
     "section": "Useful R Studio Shortcuts",
-    "text": "Useful R Studio Shortcuts\n\nCtrl + Enter in your script evaluates that line of code\n\nIt’s like copying and pasting the code into the console for it to run.\n\nCtrl+1 takes you to the script page\nCtrl+2 takes you to the console\nhttp://www.rstudio.com/ide/docs/using/keyboard_shortcuts"
+    "text": "Useful R Studio Shortcuts\n\n\nCtrl + Enter in your script evaluates that line of code\n\nIt’s like copying and pasting the code into the console for it to run.\n\n\n\nCtrl+1 takes you to the script page\n\nCtrl+2 takes you to the console\nhttp://www.rstudio.com/ide/docs/using/keyboard_shortcuts"
   },
   {
     "objectID": "prework.html#major-concepts",
@@ -530,5 +530,33 @@
     "title": "Cheatsheet",
     "section": "Data Input/Output",
     "text": "Data Input/Output\n\nMajor concepts\n\nDelimited file - columns within the file have boundaries created with some type of punctuation - for example, a csv file stands for comma separated values, thus the columns are delimited or separated by commas. txt files often use tabs.\ntibble – a rectangular data frame, where data are split into rows and columns.\nFile path - where a file lives on your computer (or on the internet) - File paths can be relative or absolute.\nGetting help - For any function, you can write ?FUNCTION_NAME, or help(\"FUNCTION_NAME\") to look at the help file for that function.\nR Projects set the working directory where the .Rproj file is.\nR Markdown files look for file paths relative to where the .Rmd file is located\n\n\n\nFunctions\n\n\n\nLibrary/Package\nPiece of code\nExample of usage\nWhat it does\n\n\n\n\nreadr\nread_csv()\ndf &lt;- read_csv(\"http://jhudatascience.org/intro_to_R_class/data/Youth_Tobacco_Survey_YTS_Data.csv\")\nReads in a TSV file from a specified file path. This function can be tailored to read in other common types of files. i.e. read_csv(), read_rds(), etc.\n\n\nTSA\nspec()|spec(mtcars)| Gives specification of column types| |readxl| [read_excel()](https://www.rdocumentation.org/packages/readxl/versions/1.3.1/topics/read_excel)|read_excel(“dataset.xlsx”)| Read in an excel file.| | BaseR| [getwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|getwd()| Finds the current working directory.| | BaseR| [setwd()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd)|setwd(“Desktop”)`\nChanges the current working directory."
+  },
+  {
+    "objectID": "index.html#why-r",
+    "href": "index.html#why-r",
+    "title": "RNA-Seq Data Analysis with R",
+    "section": "Why R?",
+    "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc."
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "RNA-Seq Data Analysis with R",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nAt the end of the tutorial, participants will be able to\n\nDescribe the principles of RNA-Seq technology and its applications.\nRecognize different experimental design considerations for RNA-Seq experiments.\nPerform quality assessment of raw RNA-Seq data using FastQC.\nImplement preprocessing steps, including read trimming and adapter removal.\nConduct quality control checks after preprocessing.\nChoose appropriate alignment algorithms (e.g., STAR, HISAT2) for mapping reads to a reference genome.\nCalculate gene expression levels using RPKM/FPKM or TPM normalization methods.\nEvaluate alignment and expression estimation quality.\nUnderstand statistical concepts underlying differential expression analysis.\nUse R packages (e.g., DESeq2, edgeR) to identify differentially expressed genes.\nInterpret and visualize differential expression results using volcano plots, heatmaps, and gene ontology analysis.\nPerform functional enrichment analysis using gene ontology and pathway databases.\nInterpret biological significance of enriched terms."
+  },
+  {
+    "objectID": "index.html#pre-requisites",
+    "href": "index.html#pre-requisites",
+    "title": "RNA-Seq Data Analysis with R",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\n\nBasic familiarity with R\nBasic knowledge of bioinformatics"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "RNA-Seq Data Analysis with R",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nDay\nDate\nSession Title\nTime\nInstructor\n\n\n\n\nDay 1\nNovember 1, 2023\nFundamentals of R: Part 1\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 2\nNovember 3, 2023\nFundamentals of R: Part 2\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 3\nNovember 5, 2023\nThe Tidyverse Ecosystem: Part 1\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 4\nNovember 7, 2023\nThe Tidyverse Ecosystem: Part 2\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 5\nNovember 9, 2023\nDownstream RNASeq Analysis\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 6\nNovember 11, 2023\nUpstream RNASeq Analysis\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 7\nNovember 13, 2023\nBiological Interpretation\n9:00 - 10:30 PM\nMd. Jubayer Hossain\n\n\nDay 8\nNovember 15, 2023\nReproducible Research\n9:00 - 10:30 PM\nMd. Jubayer Hossain"
   }
 ]

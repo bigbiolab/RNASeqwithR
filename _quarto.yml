@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "case-studies/*.qmd"
+    - "!contents/*.qmd"
+
 
 website:
   navbar:
@@ -33,8 +38,14 @@ website:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 format:
   html:
-    theme: yeti
+    theme: [materia, theme.scss]
     css: styles.css
     toc: true
-editor: visual
+    toc-location: right
+    toc-title: Contents
+    code-link: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+editor: source
 

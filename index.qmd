@@ -1,51 +1,67 @@
 ---
-pagetitle: "Course site"
-title: "Title of Your Workshop Session"
+pagetitle: "RNA-Seq Data Analysis with R"
+title: "RNA-Seq Data Analysis with R"
 editor: source
 ---
 
 ------------------------------------------------------------------------
-Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
+👨 Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
 
-🗓 July 16 - July 31, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
+🗓 July 16 - July 31, 2023 \| 9:00 pm - 10:30pm (Bangladesh Time)
 
 🏨 Medium - Zoom/Google Meet
 
-💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
+💥 **Register** with [Google Forms](https://forms.gle/N4hGjyXUT9u3FooB7)
 
-💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
+৳ **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 ------------------------------------------------------------------------
 
 # Welcome!
+The "RNA-Seq Data Analysis with R" course is designed to provide participants with a comprehensive understanding of RNA sequencing (RNA-Seq) data analysis using the R programming language. RNA-Seq has revolutionized transcriptomics by enabling the high-throughput sequencing of RNA molecules, allowing researchers to gain insights into gene expression, alternative splicing, and other RNA-related phenomena. This course will cover the entire RNA-Seq analysis pipeline, from raw data preprocessing to differential gene expression analysis and functional enrichment.
 
--   The goal of the workshop is to ... (*insert your message*)
--   For example, introduce kep concepts in machine learning, such as regularisation.
--   Workshop material can be found in the workshop [github repository](https://github.com).
+-   Course material can be found in the workshop [github repository](https://github.com/omicscenter/RNASeqwithR).
 
-#### Learning Objectives
+## Why R?
+
+-   R is a programming and statistical language.
+-   R is used for data Analysis and Visualization.
+-   R is simple and easy to learn, read and write.
+-   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
+
+
+## Learning Objectives
 
 At the end of the tutorial, participants will be able to
 
--   understand key concepts for ... (*insert your message*)
--   For example, training machine learning models such as regularisation.
--   another objective
+-  Describe the principles of RNA-Seq technology and its applications.
+-  Recognize different experimental design considerations for RNA-Seq experiments.
+- Perform quality assessment of raw RNA-Seq data using FastQC.
+- Implement preprocessing steps, including read trimming and adapter removal.
+- Conduct quality control checks after preprocessing.
+- Choose appropriate alignment algorithms (e.g., STAR, HISAT2) for mapping reads to a reference genome.
+- Calculate gene expression levels using RPKM/FPKM or TPM normalization methods.
+- Evaluate alignment and expression estimation quality.
+- Understand statistical concepts underlying differential expression analysis.
+- Use R packages (e.g., `DESeq2`, `edgeR`) to identify differentially expressed genes.
+- Interpret and visualize differential expression results using `volcano plots`, `heatmaps`, and `gene ontology` analysis.
+- Perform functional enrichment analysis using gene ontology and pathway databases.
+- Interpret biological significance of enriched terms.
 
-#### Pre-requisites
+## Pre-requisites
 
 -   Basic familiarity with R
--   Some other knowledge
+-   Basic knowledge of bioinformatics 
 
-# Schedule
-
-::: callout-tip
-## Tabular schedule
-
-It can be useful to include a tabular schedule with links.
-:::
-
-|     Time      |                       Topic                       |    Presenter    |
-|:----------------:|:-----------------------------------:|:----------------:|
-| 9:00 - 10:30  |     [Session 1: Preparation](part_1_prep.qmd)     |  Instructor A   |
-| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |
+## Schedule
+|Day | Date | Session Title | Time | Instructor| 
+|:---:|:----:|:--------------:|:-------:|:------:|
+|Day 1|November 1, 2023|	Fundamentals of R: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 2|November 3, 2023|	Fundamentals of R: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 3|November 5, 2023|	The Tidyverse Ecosystem: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 4|November 7, 2023|The Tidyverse Ecosystem: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 5|November 9, 2023|Downstream RNASeq Analysis| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 6|November 11, 2023|Upstream RNASeq Analysis| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 7|November 13, 2023|Biological Interpretation| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 8|November 15, 2023|Reproducible Research| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
