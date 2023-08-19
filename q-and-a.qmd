@@ -1,5 +1,5 @@
 ---
-title: "FAQs - R for Research"
+title: "FAQs - RNA-Seq Data Analysis with R"
 subtitle: ""
 editor: source
 ---
